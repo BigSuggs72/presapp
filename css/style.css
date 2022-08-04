@@ -1,0 +1,106 @@
+/* Box Model Hack */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background: rgb(59, 59, 243);
+     background-image: url(../image/USFlag.gif);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     font-family: "Lora", sans-serif;
+}
+
+
+.info {
+    position: relative;
+    top: 50%;
+    left: 40%;
+    width: 600px;
+    height: 1000px;
+    padding: 20px;
+}
+
+h1{
+    padding: 10px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+h3{
+     padding: 10px 5px;
+     text-align: left;
+     font-size: 1rem;
+ }
+
+ input {
+     font-family: "Lora", sans-serif;
+     margin-left: 5px;
+     margin-bottom: 2px;
+     padding: 10px;
+     border-radius: 5px;
+     height: 20px;
+     width: 30%;
+ }
+
+
+ .button {
+     color: white;
+     border: none;
+     cursor: pointer;
+     margin: 5px;
+     padding: 10px;
+     background-color:blue;
+     border-radius: 5px;
+     font-family: "Edu TAS Beginner", sans-serif;
+ }
+
+ h4{
+     margin-bottom: 10px;
+     padding: 10px 5px;
+     text-align: left;
+     font-size: 1rem;
+ }
+
+ .image {
+     height: 50%;
+     width: 50%;
+     border-radius: 5px;
+}
+
+.specs {
+     list-style: none;
+     font-size: 20px;
+     font-family: "Edu TAS Beginner", sans-serif;
+     font-weight: bold;
+  }
+
+
+#number {
+     font-family: "Edu TAS Beginner", sans-serif;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

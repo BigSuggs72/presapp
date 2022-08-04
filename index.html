@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>US President API</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="info">
+			<h1>US Presidents</h1>
+			<h3>Enter a Number or First Name or Last Name</h3>
+			<input type="text" placeholder="Right here" name="name">
+				<div>
+					<button class="button" id="getButton">Find A President</button>
+				</div>
+			<h4>PS: If there are duplicate names, enter a middle initial.</h4>
+
+			<div>
+				<img class="image" src="" alt='image here'id="image">
+			</div>
+
+		<ul class="specs">
+				<li><span>Number: </span><span id="number"></span></li>
+				<li><span>Firstname: </span><span id="fName"></span></li>
+				<li><span>Lastname: </span><span id="lname"></span></li>
+				<li><span>Term: </span><span id="term"></span></li>
+				<li><span>Party: </span><span id="party"></span></li>
+				<li><span>Birth State: </span><span id="birthstate"></span></li>
+				<li><span>Facts: </span><span id="facts"></span></li>
+		</ul>
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
