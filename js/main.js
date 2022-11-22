@@ -3,7 +3,8 @@ document.querySelector('button').addEventListener('click', preapi)
 async function preapi(){
     const pname = document.querySelector('input').value
     try{
-        const response = await fetch(`https://presapi.herokuapp.com/api/${pname}`)
+        // const response = await fetch(`https://presapi.herokuapp.com/api/${pname}`)
+        const response = await fetch(`https://uspres.onrender.com/api/${pname}`)
         const data = await response.json()
         console.log(data)
 
